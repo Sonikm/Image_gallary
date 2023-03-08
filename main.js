@@ -38,7 +38,7 @@ const slideImage = () =>{
 // For automatically image slide
 setInterval(()=>{
   counter ++;
-  if(counter > 3){
+  if(counter >= slides.length-1){
       counter = 0;
       slideImage();
   }
